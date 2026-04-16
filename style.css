@@ -1,4 +1,4 @@
-/* ===== GLOBAL ===== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* ===== HEADER ===== */
 .header_class {
     position: sticky;
     top: 0;
@@ -75,19 +74,19 @@ a:hover {
     width: 100%;
 }
 
-/* ===== CONTAINER ===== */
+
 .container_class {
     max-width: 950px;
     margin: 60px auto;
     padding: 30px;
 }
 
-/* Auto spacing between direct children */
+
 .container_class > * {
     margin-bottom: 50px;
 }
 
-/* ===== SECTION TITLES ===== */
+
 .section_title_class {
     text-align: center;
     font-size: 34px;
@@ -102,7 +101,7 @@ a:hover {
     margin-bottom: 40px;
 }
 
-/* ===== IMAGE ===== */
+
 .package_image_class {
     display: block;
     margin: 0 auto 25px auto;
@@ -111,7 +110,7 @@ a:hover {
     border-radius: 14px;
 }
 
-/* ===== DESCRIPTION ===== */
+
 .package_desc_class {
     text-align: center;
     color: #555;
@@ -120,7 +119,7 @@ a:hover {
     margin: 0 auto 35px auto;
 }
 
-/* ===== BOOKING FORM ===== */
+
 .booking_form_class {
     background: #fff;
     padding: 35px;
@@ -128,7 +127,7 @@ a:hover {
     box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 
-/* Form label */
+
 .booking_form_class label {
     display: block;
     margin-top: 15px;
@@ -137,7 +136,7 @@ a:hover {
     color: #333;
 }
 
-/* Inputs & select */
+
 .input_class {
     width: 100%;
     padding: 14px;
@@ -164,7 +163,7 @@ a:hover {
     resize: none;
 }
 
-/* Submit button */
+
 .btn_primary_class {
     width: 50%;
     padding: 16px;
@@ -183,7 +182,7 @@ a:hover {
     transform: translateY(-2px);
 }
 
-/* ===== MAP ===== */
+
 .map_title_class {
     text-align: center;
     font-size: 22px;
@@ -197,7 +196,7 @@ a:hover {
     border: none;
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
     .container_class {
         padding: 20px;
@@ -231,7 +230,7 @@ a:hover {
         height: 280px;
     }
 }
-/* Popup overlay */
+
 .popup_form_class {
     position: fixed;
     top: 0; left: 0;
@@ -243,7 +242,6 @@ a:hover {
     z-index: 1000;
 }
 
-/* Popup content */
 .popup_content_class {
     background: #fff;
     padding: 25px 30px;
@@ -257,7 +255,6 @@ a:hover {
     position: relative;
 }
 
-/* Close button */
 .close_btn_class {
     position: absolute;
     top: 10px;
@@ -272,7 +269,7 @@ a:hover {
 .close_btn_class:hover {
     color: #1e90ff;
 }
-/* ==================== GLOBAL STYLES ==================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -298,7 +295,7 @@ select, input[type="date"], input[type="number"] {
     font-size: 15px;
 }
 
-/* ==================== HEADER & NAVBAR ==================== */
+
 .header_class {
     position: sticky;
     top: 0;
@@ -357,7 +354,7 @@ select, input[type="date"], input[type="number"] {
     width: 100%;
 }
 
-/* ==================== HERO SECTION ==================== */
+
 .hero_section_class {
     position: relative;
     height: 100vh;
@@ -434,7 +431,7 @@ select, input[type="date"], input[type="number"] {
     transform: translateY(-3px);
 }
 
-/* ==================== DESTINATIONS SECTION ==================== */
+
 .destinations_section_class {
     padding: 80px 20px;
     background-color: #f9f9f9;
@@ -522,7 +519,7 @@ select, input[type="date"], input[type="number"] {
     line-height: 1.6;
 }
 
-/* ==================== PACKAGES SECTION ==================== */
+
 .packages_section_class {
     padding: 80px 20px;
     background-color: #ffffff;
@@ -590,7 +587,7 @@ select, input[type="date"], input[type="number"] {
     margin: 8px 0;
 }
 
-/* ==================== REGISTER SECTION ==================== */
+
 .register_section_class {
     padding: 80px 20px;
     background: #f4f9ff;
@@ -615,7 +612,7 @@ select, input[type="date"], input[type="number"] {
     font-size: 15px;
 }
 
-/* Password Rules & Strength */
+
 .pass_rules {
     text-align: left;
     font-size: 14px;
@@ -651,7 +648,7 @@ select, input[type="date"], input[type="number"] {
     transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-/* ==================== POPUP FORM ==================== */
+
 .popup_form_class {
     position: fixed;
     top:0;
@@ -689,7 +686,7 @@ select, input[type="date"], input[type="number"] {
     padding: 10px;
 }
 
-/* ==================== BOOKING & PLANNED TOURS ==================== */
+
 .booking_grid_class,
 .planned_tours_grid_class {
     display: flex;
@@ -723,7 +720,7 @@ select, input[type="date"], input[type="number"] {
     margin: 3px 0;
 }
 
-/* ==================== BOOKING FORM ==================== */
+
 .booking_form_class,
 form {
     background: #fff;
@@ -776,7 +773,7 @@ form button:hover {
     background: linear-gradient(135deg, #0077ff, #005ecc);
 }
 
-/* ==================== MAP ==================== */
+
 .map_class,
 iframe {
     width: 100%;
@@ -791,7 +788,7 @@ iframe {
     text-align: center;
 }
 
-/* ==================== FOOTER ==================== */
+
 .footer_class {
     background-color: #1e90ff;
     color: #fff;
@@ -801,7 +798,7 @@ iframe {
     font-family: Arial, sans-serif;
 }
 
-/* ==================== IMAGES & DESCRIPTIONS ==================== */
+
 .package_image_class,
 .container_class img {
     display: block;
@@ -818,7 +815,6 @@ iframe {
     margin-bottom: 25px;
 }
 
-/* ==================== RESPONSIVE ==================== */
 @media (max-width: 600px) {
     .container_class {
         padding: 15px;
@@ -838,7 +834,7 @@ iframe {
 
 .gallery_slider_track {
     display: flex;
-    width: calc(5 * 100%); /* 5 images */
+    width: calc(5 * 100%); 
     transition: transform 1s ease-in-out;
 }
 
@@ -846,30 +842,28 @@ iframe {
     width: 100%;
     flex-shrink: 0;
 }
-/* =========================
-   GALLERY SECTION (BIG)
-========================= */
+
 .gallery_section_class {
     padding: 100px 0;
     background: #f5f7fa;
 }
 
-/* Container */
+
 .container_class {
-    max-width: 1400px; /* 🔥 wider */
+    max-width: 1400px; 
     margin: auto;
     padding: 0 20px;
 }
 
-/* Title */
+
 .section_title_class {
     text-align: center;
-    font-size: 48px; /* 🔥 bigger */
+    font-size: 48px; 
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-/* Subtitle */
+
 .section_subtitle_class {
     text-align: center;
     font-size: 20px;
@@ -877,48 +871,44 @@ iframe {
     margin-bottom: 60px;
 }
 
-/* =========================
-   SLIDER (BIG HEIGHT)
-========================= */
+
 
 .gallery_slider_wrapper {
     overflow: hidden;
     width: 100%;
-    height: 450px; /* 🔥 BIG HEIGHT */
+    height: 450px; 
     position: relative;
 }
 
-/* Track */
+
 .gallery_slider_track {
     display: flex;
     gap: 25px;
     animation: scrollSlider 25s linear infinite;
 }
 
-/* Slide */
+
 .gallery_slide {
-    min-width: 500px;   /* 🔥 BIG WIDTH */
-    height: 450px;      /* same as wrapper */
+    min-width: 500px;   
+    height: 450px;      
     flex-shrink: 0;
 }
 
-/* Image (same size for all) */
+
 .gallery_slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover;   /* ✅ keeps size SAME, crops nicely */
+    object-fit: cover;   
     border-radius: 20px;
     transition: transform 0.5s ease;
 }
 
-/* Hover effect */
+
 .gallery_slide img:hover {
     transform: scale(1.1);
 }
 
-/* =========================
-   ANIMATION
-========================= */
+
 
 @keyframes scrollSlider {
     0% {

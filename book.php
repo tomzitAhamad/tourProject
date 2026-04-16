@@ -20,7 +20,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $transport = $_POST['transport'] ?? '';
     $created_at = date('Y-m-d H:i:s');
 
-    // Validate required fields
     if($fullname && $email && $mobile && $travel_date && $return_date && $people && $room_type && $transport){
         $stmt = $con->prepare("INSERT INTO bookings (username, package, fullname, email, mobile, travel_date, return_date, people, room_type, transport, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("sssssssssss", $username, $package, $fullname, $email, $mobile, $travel_date, $return_date, $people, $room_type, $transport, $created_at);

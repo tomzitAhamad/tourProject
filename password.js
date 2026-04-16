@@ -4,9 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("registrationPopup");
     const strengthIndicator = document.getElementById("strengthIndicator");
 
-    // ========================
-    // STRONG PASSWORD CHECK
-    // ========================
     function strongPassword(password) {
         const errors = [];
         if (!/[A-Z]/.test(password)) errors.push("Uppercase letter missing");
@@ -17,9 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return errors; // empty = strong
     }
 
-    // ========================
-    // LIVE PASSWORD STRENGTH INDICATOR
-    // ========================
+   
     if (passField && strengthIndicator) {
         passField.addEventListener("input", function () {
             const val = this.value;
@@ -50,15 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
             const width = (strength / 5) * 100;
             strengthIndicator.style.width = width + "%";
             strengthIndicator.style.backgroundColor = strength <= 2 ? "red" :
-                                                      strength <= 4 ? "orange" : "green";
+             strength <= 4 ? "orange" : "green";
         });
     }
 
-    // ========================
-    // FORM VALIDATION + POPUP
-    // ========================
+    
     form.addEventListener("submit", function(e) {
-        e.preventDefault(); // prevent form default submission
+        e.preventDefault(); 
 
         const fname = document.getElementById("fname").value.trim();
         const lname = document.getElementById("lname").value.trim();
@@ -67,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const mobile = document.getElementById("mobile").value.trim();
         const pass = passField.value;
 
-        // Basic field validation
+        
         if (fname.length < 3) { alert("First name must be at least 3 characters"); return; }
         if (lname.length < 3) { alert("Last name must be at least 3 characters"); return; }
         if (uname.length < 3) { alert("Username must be minimum 3 characters"); return; }
@@ -77,14 +70,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (mobile.length !== 11 || isNaN(mobile)) { alert("Mobile number must be 11 digits"); return; }
 
-        // Password validation
+        
         const errors = strongPassword(pass);
         if (errors.length > 0) {
             alert("Password error:\n• " + errors.join("\n• "));
             return;
         }
 
-        // Show success popup
+       
         popup.style.display = "block";
         setTimeout(() => {
             popup.style.display = "none";
