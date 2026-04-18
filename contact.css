@@ -1,0 +1,112 @@
+
+.contact_section_class {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact_section_class .container_class {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact_section_class .section_title_class {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact_section_class .section_subtitle_class {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+
+.contact_content_class {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+.contact_info_class {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact_info_class h3 {
+    margin-bottom: 10px;
+    color: #e53935; 
+    font-size: 18px;
+}
+
+.contact_info_class p {
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.contact_form_class {
+    flex: 1 1 400px;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact_form_class h3 {
+    margin-bottom: 20px;
+    color: #e53935;
+    font-size: 20px;
+}
+
+.contact_form_class form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact_form_class input,
+.contact_form_class textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.contact_form_class input:focus,
+.contact_form_class textarea:focus {
+    border-color: #e53935;
+    box-shadow: 0 0 6px rgba(229,57,53,0.3);
+}
+
+.contact_form_class button {
+    padding: 12px;
+    background-color: #e53935;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact_form_class button:hover {
+    background-color: #d32f2f;
+}
+
+
+@media screen and (max-width: 900px) {
+    .contact_content_class {
+        flex-direction: column;
+    }
+}
