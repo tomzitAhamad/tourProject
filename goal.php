@@ -76,7 +76,7 @@
 
 <footer class="footer_class">
     <p>© 2026 TravelBD. All rights reserved.</p>
-    <p>Made by Tomzid Ahamad</p>
+    <p>Made by Tomzid Ahamad & Mushfikur Rahman</p>
 </footer>
 
 </body>
