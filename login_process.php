@@ -22,5 +22,6 @@ if(mysqli_num_rows($run) == 1){
             alert( 'Invalid Username or Password');
             window.location.href='login.php';
           </script>";
+          
 }
 ?>
