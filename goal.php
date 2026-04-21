@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title href="#">Our Goal - TravelBD</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="style.css">
 </head>
 <body>
 
 <header class="header_class">
-    <nav class="navbar_class">
+    <nav class="navbar_class ">
         <div class="logo_class">
             <a href="index.html">TravelBD</a>
         </div>
@@ -16,7 +16,7 @@
         
     </nav>
 </header>
-
+ 
 
 <section class="goal_section_class">
     <div class="container_class">
@@ -76,7 +76,7 @@
 
 <footer class="footer_class">
     <p>© 2026 TravelBD. All rights reserved.</p>
-    <p>Made by Tomzid Ahamad</p>
+    <p>Made by Tomzid Ahamad & Mushfikur Rahman</p>
 </footer>
 
 </body>

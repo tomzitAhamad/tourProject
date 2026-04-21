@@ -14,6 +14,7 @@ include 'connection.php';
 
 $sql = "SELECT * FROM users";
 $run = mysqli_query($con,$sql);
+
 ?>
 
 <!DOCTYPE html>
